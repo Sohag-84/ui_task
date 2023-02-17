@@ -20,3 +20,4 @@ const saveDate = "Save Date:";
 const date1 = "10/12/2022";
 const date2 = "11/04/2022";
 const date3 = "25/09/2022";
+const allTask = "All Tasks";

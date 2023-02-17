@@ -2,14 +2,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:ui_task/constants/strings.dart';
 
 class CustomRow extends StatelessWidget {
-  final String text1, text2;
+  final String text;
   final Color color1, color2;
   const CustomRow({
     Key? key,
-    required this.text1,
-    required this.text2,
+    required this.text,
     required this.color1,
     required this.color2,
   }) : super(key: key);
@@ -19,7 +19,7 @@ class CustomRow extends StatelessWidget {
     return Row(
       children: [
         Text(
-          text1,
+          text,
           style: TextStyle(
             fontSize: 14.sp,
             fontWeight: FontWeight.w600,
@@ -28,7 +28,7 @@ class CustomRow extends StatelessWidget {
         ),
         Spacer(),
         Text(
-          text2,
+          seeAll,
           style: TextStyle(
             fontSize: 12.sp,
             fontWeight: FontWeight.w400,
