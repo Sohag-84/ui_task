@@ -5,6 +5,7 @@ import 'package:ui_task/constants/colors.dart';
 import 'package:ui_task/constants/image_path.dart';
 import 'package:ui_task/constants/strings.dart';
 import 'package:ui_task/controllers/nav_controller.dart';
+import 'package:ui_task/views/screens/home/home_screen.dart';
 
 class BottomNavScreen extends StatelessWidget {
   BottomNavScreen({Key? key}) : super(key: key);
@@ -12,9 +13,7 @@ class BottomNavScreen extends StatelessWidget {
   final controller = Get.put(NavController());
 
   List pageList = const [
-    Center(
-      child: Text("Home screen"),
-    ),
+   HomeScreen(),
     Center(
       child: Text("Search screen"),
     ),
