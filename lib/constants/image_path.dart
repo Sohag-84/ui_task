@@ -7,3 +7,5 @@ const icSetting = "assets/icons/settings.png";
 //images
 const imgContainer = "assets/images/bg.png";
 const imgProfile = "assets/images/img.jpg";
+const imgTodo = "assets/images/todo.png";
+const imgTodoList = "assets/images/todo_list.png";
